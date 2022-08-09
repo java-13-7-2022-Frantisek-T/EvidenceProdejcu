@@ -5,10 +5,10 @@ import java.time.LocalDate;
 public class Prodejce {
 
     String      prodejceJmenoPrijmeni                               = "Jan Prodavač";
-    LocalDate   prodejceDatumNarození                               = LocalDate.of(1963,2,1);
+    LocalDate   prodejceDatumNarozeni                               = LocalDate.of(1963,2,1);
     int         prodejcePocetSjednanychSmluv                        = 12345;
-    double      prodejceCelkoveMnozstvíProdaneMrkve                 = 87654.321;                                    // v tunách
-    String      prodejceSídloNazevMesta                             = "Mrkvičkov";
+    double      prodejceCelkoveMnozstviProdaneMrkve                 = 87654.321;                                    // v tunách
+    String      prodejceSidloNazevMesta                             = "Mrkvičkov";
     String      prodejceVozidloRegistracniZnacka                    = "1AM 0833";
     double      prodejceVozidloSpotreba                             = 9.87;                                         // v litrech na 100 km
     String      prodejcePocitacAdresaIP                             = "001.002.003.004";                            // adresa verze 4
@@ -27,11 +27,11 @@ public class Prodejce {
     }
 
     public LocalDate getProdejceDatumNarození() {
-        return prodejceDatumNarození;
+        return prodejceDatumNarozeni;
     }
 
     public void setProdejceDatumNarození(LocalDate prodejceDatumNarození) {
-        this.prodejceDatumNarození = prodejceDatumNarození;
+        this.prodejceDatumNarozeni = prodejceDatumNarození;
     }
 
     public int getProdejcePocetSjednanychSmluv() {
@@ -43,19 +43,19 @@ public class Prodejce {
     }
 
     public double getProdejceCelkoveMnozstvíProdaneMrkve() {
-        return prodejceCelkoveMnozstvíProdaneMrkve;
+        return prodejceCelkoveMnozstviProdaneMrkve;
     }
 
     public void setProdejceCelkoveMnozstvíProdaneMrkve(double prodejceCelkoveMnozstvíProdaneMrkve) {
-        this.prodejceCelkoveMnozstvíProdaneMrkve = prodejceCelkoveMnozstvíProdaneMrkve;
+        this.prodejceCelkoveMnozstviProdaneMrkve = prodejceCelkoveMnozstvíProdaneMrkve;
     }
 
     public String getProdejceSídloNazevMesta() {
-        return prodejceSídloNazevMesta;
+        return prodejceSidloNazevMesta;
     }
 
     public void setProdejceSídloNazevMesta(String prodejceSídloNazevMesta) {
-        this.prodejceSídloNazevMesta = prodejceSídloNazevMesta;
+        this.prodejceSidloNazevMesta = prodejceSídloNazevMesta;
     }
 
     public String getProdejceVozidloRegistracniZnacka() {

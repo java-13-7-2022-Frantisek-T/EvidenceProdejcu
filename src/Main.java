@@ -8,7 +8,7 @@ public class Main {
 
         double prumerneMnozstviProdaneMrkveNaJednuSmlouvu = 0.0d;
 
-        if (! (prodejce.getProdejcePocetSjednanychSmluv()==0)) {
+        if (!(prodejce.getProdejcePocetSjednanychSmluv()==0)) {
             prumerneMnozstviProdaneMrkveNaJednuSmlouvu = prodejce.getProdejceCelkoveMnozstvíProdaneMrkve() / prodejce.getProdejcePocetSjednanychSmluv();
         }
 
